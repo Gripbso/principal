@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contenedor {
+            background: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #0077cc;
+        }
+
+        button {
+            background: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>¡Hola, mundo!</h1>
+        <p>Si estás viendo esta página, tu sitio web funciona correctamente.</p>
+
+        <button onclick="saludar()">Haz clic aquí</button>
+    </div>
+
+    <script>
+        function saludar() {
+            alert("GRIPBSO Ingeniería");
+        }
+    </script>
+
+</body>
+</html>
